@@ -7,10 +7,12 @@ import router from './router'
 import store from './store'
 
 import './mock/mockServer'
-
+// import loading from './common/imgs/loading.gif'
+import './filters'
 // 注册全局组件标签
-Vue.component(Button.name, Button) // mt-button标签
 
+
+Vue.component(Button.name, Button) // mt-button标签
 
 /* eslint-disable no-new */
 new Vue({
